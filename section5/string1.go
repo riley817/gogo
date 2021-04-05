@@ -16,6 +16,7 @@ func main() {
 	var str1 string = "c:\\go_study\\src\\"	// c:\go_study\src\
 	str2 := `c:\go_study\src\` 				// escape 를 사용하지 않아도
 
+	fmt.Println("#############################")
 	fmt.Println("Example 1 : ", str1)
 	fmt.Println("Example 1 : ", str2)
 
