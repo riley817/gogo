@@ -17,9 +17,9 @@ func main() {
 	var map2 = make(map[string]int)	// 자료형 생략
 	map3 := make(map[string]int)    // 리터럴
 
-	fmt.Println("Ex 1 :", map1)
-	fmt.Println("Ex 1 :", map2)
-	fmt.Println("Ex 1 :", map3)
+	fmt.Println("Example 1 :", map1)
+	fmt.Println("Example 1 :", map2)
+	fmt.Println("Example 1 :", map3)
 	fmt.Println()
 
 	// Example 2

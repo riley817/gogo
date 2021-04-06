@@ -40,7 +40,7 @@ func main() {
 
 	fmt.Println("#######################")
 	var slice9 []int // int 슬라이스(길이와 용량이 0)
-	if slice9 == nil {
+	if nil == slice9 {
 		fmt.Println("This is Nil Slice!")
 	}
 

@@ -27,6 +27,8 @@ func main() {
 	rptc(&a)
 	vptc(b)
 
-
+	fmt.Println("Example 2 : ", a)
+	fmt.Println("Example 2 : ", b)
+	fmt.Println()
 
 }

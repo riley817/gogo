@@ -17,15 +17,17 @@ func main() {
 	var a *int 				// 방법1
 	var b *int  = new(int) 	// 방법2
 
+	fmt.Println("포인터 선언 및 초기화")
 	fmt.Println(a)
 	fmt.Println(b)
 
 	i := 7
 
-	fmt.Println("Example 1 : ", i, &i)
+	fmt.Println("[Example 1] i의 값과 주소값 ", i, &i)
 
 	a = &i // 주소값을 전달
 	b = &i // 주소값을 전달
+
 
 	fmt.Println("Example 1 : ", a, &i)
 	fmt.Println("Example 1 : ", &a)	// i의 주소값이 저장되어있는 a의 주소값
