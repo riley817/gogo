@@ -6,11 +6,18 @@ func main() {
 	// Example 1
 	cnt := increaseCnt()
 
-	fmt.Println("Example 1 : ", cnt())
-	fmt.Println("Example 1 : ", cnt())
-	fmt.Println("Example 1 : ", cnt())
-	fmt.Println("Example 1 : ", cnt())
-	fmt.Println("Example 1 : ", cnt())
+	fmt.Println("Count ->", cnt())
+	fmt.Println("Count ->", cnt())
+	fmt.Println("Count ->", cnt())
+	fmt.Println("Count ->", cnt())
+	fmt.Println("Count ->", cnt())
+
+	anotherCnt := increaseCnt()
+
+	fmt.Println("함수를 새로운 변수에 할당 시 초기화")
+	fmt.Println("Another Count ->", anotherCnt())
+	fmt.Println("Another Count ->", anotherCnt())
+	fmt.Println("Another Count ->", anotherCnt())
 
 }
 

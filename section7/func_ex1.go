@@ -20,20 +20,21 @@ func sum(n ...int) int {
 
 func prtWord(msg ...string) {
 	for _, value := range msg {
-		fmt.Println("Example 2 : ", value)
+		fmt.Println("Print Word ->", value)
 	}
 }
 
 
 func main() {
+
 	// 함수 고급
 	// 가변 인자 실습 : 매개 변수 개수가 동적으로 변할 때 - 정해져 있지 않음.
 
 	// Example 1
 	x := multiply(5, 6, 7, 8, 9, 10)
 	y := sum(1,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
-	fmt.Println("Example 1 : ", x)
-	fmt.Println("Example 1 : ", y)
+	fmt.Println("x -> ", x)
+	fmt.Println("y -> ", y)
 	fmt.Println()
 
 	// Example 2
@@ -45,7 +46,8 @@ func main() {
 	m := multiply(a...)
 	n := sum(a...)
 
-	fmt.Println("Example 3 : ", m)
-	fmt.Println("Example 3 : ", n)
+	fmt.Println()
+	fmt.Println("Slice Parameter ->", m)
+	fmt.Println("Slice Parameter ->", n)
 
 }

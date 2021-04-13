@@ -17,7 +17,7 @@ func main() {
 	}
 
 	r1 := multiply(5, 10)
-	fmt.Println("Example 1 : ", r1)
+	fmt.Println("익명 함수 변수에 할당 ->", r1)
 
 	// Example 2
 	m, n := 5, 10 // 지역변수 - 변수가 캡쳐
@@ -26,6 +26,6 @@ func main() {
 	}
 
 	r2 := sum(10)
-	fmt.Println("Example 2 :", r2)
+	fmt.Println("Closure 예제 ->", r2)
 
 }
