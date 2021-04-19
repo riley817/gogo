@@ -1,0 +1,5 @@
+someoHello GoLang! 
+ File Write Test - 1 
+Hello GoLang! 
+ File Write Test! - 3
+eAt ! - 2 

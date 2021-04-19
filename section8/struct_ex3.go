@@ -24,13 +24,13 @@ func main() {
 	kim := Account{"245-901", 10000000, 0.015}
 	lee := Account{"245-902", 20000000, 0.025}
 
-	fmt.Println("Example 1 : ", lee)
 	fmt.Println("Example 1 : ", kim)
+	fmt.Println("Example 1 : ", lee)
 	fmt.Println()
 
-	lee.CalculateD(1000000)
 	kim.CalculateF(1000000)
+	lee.CalculateD(1000000)
 
-	fmt.Println("Example 1 : ", int(lee.balance))
 	fmt.Println("Example 1 : ", int(kim.balance))
+	fmt.Println("Example 1 : ", int(lee.balance))
 }

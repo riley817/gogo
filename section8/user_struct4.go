@@ -6,6 +6,10 @@ type shoppingBasket struct { cnt, price int }
 
 // 구매 함수
 func (b shoppingBasket) purchase() int {
+	fmt.Println(b.cnt)
+	fmt.Println(b.price)
+	fmt.Println()
+
 	return b.cnt * b.price
 }
 
@@ -31,11 +35,11 @@ func main() {
 	fmt.Println("[Example 1] tot_price ", bs1.purchase())
 
 	// 참조 전달 (원본 값 수정)
-	bs1.rePurchaseP(7, 5000)
-	fmt.Println("[Example 2] tot_price ", bs1.purchase())
+	//bs1.rePurchaseP(7, 5000)
+	//fmt.Println("[Example 2] tot_price ", bs1.purchase())
 
 	// 값 전달(원본 값 수정 x)
-	bs1.rePurchaseD(10, 0)
+	bs1.rePurchaseD(3, 5000)
 	fmt.Println("[Example 3] tot_price ", bs1.purchase())
 
 }

@@ -12,7 +12,7 @@ func main() {
 	//       수신 -> 비어있으면 대기, 가득차면 작동
 
 	runtime.GOMAXPROCS(1)
-	ch := make(chan bool, 2)
+	ch  := make(chan bool, 2)
 	cnt := 12
 
 	go func() {
